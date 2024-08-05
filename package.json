@@ -1,0 +1,18 @@
+{
+  "name": "automation_appium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@codeceptjs/configure": "^1.0.1",
+    "appium": "^2.11.2",
+    "codeceptjs": "^3.6.5",
+    "webdriverio": "^8.39.1"
+  }
+}
